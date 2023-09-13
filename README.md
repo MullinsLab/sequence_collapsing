@@ -19,7 +19,7 @@ python WhereSequenceCollapsingInstalled/collapse_sequences.py filename.fasta
 
 Or, run the following command to collapse sequences in the fasta file into unique sequences based on groups/timepoints
 ````
-python WhereSequenceCollapsingInstalled/collapse_sequences_by_groups.py filename.fasta
+python WhereSequenceCollapsingInstalled/collapse_sequences.py filename.fasta -g
 ````
   - in order to collapse sequences based on groups/timepoints, the sequence names have to follow the pattern of *"projectID_sampleID_group_generegion_somethingElse"*
   - it will output two files. One is the collapsed unique sequence fasta file (filename_collapsed_by_grp.fasta), the other is the name file that is tab delimited text file listing the unique sequence names and corresponding original sequence names (filename_collapsed_by_grp_name.txt)
