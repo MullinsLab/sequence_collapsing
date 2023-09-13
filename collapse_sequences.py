@@ -22,8 +22,8 @@ if __name__ == '__main__':
     if match:
         id = match.group(1)
         if gpflag is True:
-            outfile = id + "_collapsed_byGp.fasta"
-            namefile = id + "_collapsed_byGp_name.txt"
+            outfile = id + "_collapsed_by_grp.fasta"
+            namefile = id + "_collapsed_by_grp_name.txt"
         else:
             outfile = id + "_collapsed.fasta"
             namefile = id + "_collapsed_name.txt"
